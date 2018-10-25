@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Crud File</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+    <h1>Taller DOJO CRUD</h1>
+
+    <form>
+
+        <label>Nombre Y tipo de extesion </label>
+        <input id="fileName" type="text" class="form-control">
+
+
+        <label>contenido del archivo</label>
+        <textarea id="fileContents" class="form-control" rows="5"></textarea>
+
+    </form>
+
+    <button id="btnCrear">Crear</button>
+    <button id="btnLeer">Leer</button>
+    <button id="btnEliminar">eliminar</button>
+    
+    <script>
+        require('./index.js')
+    </script>
+</body>
+
+</html>
